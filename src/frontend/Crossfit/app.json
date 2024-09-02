@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Crossfit",
+    "slug": "Crossfit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/GardenIcon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "crossfitMPA",
+    "splash": {
+      "image": "./assets/GardenLogo.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#333333"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/GardenLogo.webp",
+        "backgroundColor": "#333333"
+      }
+    },
+    "web": {
+      "favicon": "./assets/GardenIcon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
